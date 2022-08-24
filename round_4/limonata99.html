@@ -1,0 +1,154 @@
+<html><head>
+        <style>
+            html, body{
+                margin: 0;
+                padding: 0;
+            }    
+            .floatLeft{
+                float:left;
+            }
+            .floatRight{
+                float:right;
+            }
+            .clearfix{
+                clear:both;
+            }
+            #bolga{
+                display:none;
+            }
+            
+            header{
+                padding: 10px 50px;
+                border-bottom: 1px solid lightgrey;
+            }
+            header img{
+                width: 519px;
+            }
+            .icon{
+                width: 24px;
+            }
+            
+            main{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100vh;
+                display: table;
+                background-image: url("./svelte-logo-outline-background.svg");
+                background-repeat: no-repeat;
+                background-size: 33% auto;
+                background-position: right top;
+            }
+            main > div{
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+            }
+            
+            main img{
+                width: 331px;
+                margin-bottom: 400px;
+            }
+            
+            #squareCont{
+                margin: auto;
+            }
+            
+            .square{
+                width: 30;
+                padding: 20px;
+                color: white;
+                height: 400px;
+            }
+            
+            .square p{
+                height: 250px;
+            }
+            
+            .square:not(:first-of-type){
+                margin-right: 1%;
+            }
+            
+            .square:eq(0){
+                background-color: orange;
+            }
+            
+            .square:eq(1){
+                background-color: lightblue;
+            }
+            
+            .square:eq(2){
+                background-color: darkgrey;
+            }
+            
+            .txt, .icon{
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="./svelte-logo-with-text-toolbar.svg" class="floatLeft">
+            <img src="./github-icon.png" class="floatRight icon">
+            <img src="./baloon-icon.png " class="floatRight icon">
+            
+            <div class="floatRight txt">Sapper</div>
+            <div class="floatRight txt">FAQ</div>
+            <div class="floatRight txt">Blog</div>
+            <div class="floatRight txt">FAQ</div>
+            <div class="floatRight txt">Repl</div>
+            <div class="floatRight txt">Example</div>
+            <div class="floatRight txt">Api</div>
+            <div class="floatRight txt">Tutorial</div>
+            
+            <div class="clearfix"></div>
+        </header>
+        <main>
+            <div>
+                <img src="./svelte-logo-only-text.svg">
+                <div id="squareCont">
+                    <div class="square floatLeft">
+                        <h2>
+                            Write less code
+                        </h2>
+                        <p>
+                            Build boilerplate free components using languages you already know-html
+                            javascript and more
+                        </p>
+                        <div class="floatRight">Lear more</div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="square floatLeft">
+                        <h2>
+                            No virtual DOM
+                        </h2>
+                        <p>
+                            Svelte compiles your code to tiny, framework-less vanilla js-
+                            your app starts fast and stays fast
+                        </p>
+                        <div class="floatRight">Lear more</div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="square floatLeft">
+                        <h2>
+                            Truly reactive
+                        </h2>
+                        <p>
+                            No more complex management libraries - Svelte brings reactivity to 
+                            javascript itself
+                        </p>
+                        <div class="floatRight">Lear more</div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </main>
+    
+
+
+
+
+
+
+</body></html>

@@ -1,0 +1,208 @@
+<html><head></head><body>
+        
+        <style>
+            body {
+                background: url(./bg_pattern.jpg) 0 0 repeat;
+                min-height: 100vh;
+                padding-top: 120px;
+            }
+            
+            @font-face {
+                src: url("https://fonts.googleapis.com/css?family=Catamaran&display=swap");
+                font-family: 'Catamaran', sans-serif;
+            }
+            
+            * {
+                box-sizing: border-box;
+                font-family: 'Catamaran', sans-serif;
+            }
+            
+            header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 80px;
+                line-height: 80px;
+            }
+            
+            header ul {
+                display: flex;
+                flex-flow: row no-wrap;
+                justify-content: space-around;
+                margin: 0 auto;
+                max-width: 960px;
+                height: 80px;
+                list-style: none;
+                background: rgba(0, 0, 0, .3);
+            }
+            
+            header li {
+                font-weight: 600;
+                color: #fff;
+            }
+            
+            header img {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: 88px;
+                height: 88px;
+                z-index: 1;
+                transform: translate(-50%, -50%);
+            }
+            header li:nth-child(2) {
+                text-indent: -50px;
+            }
+            header li:nth-child(3) {
+                text-indent: 50px;
+            }
+            
+            header li:last-child { color: yellow ; }
+            
+            section {
+                color: #fff;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                margin: 0 auto;
+                width: 1200px;
+            }
+            article {
+                flex-basis: 31%;
+                width: 31%;
+                margin-bottom: 50px;
+            }
+            
+            article img {
+                width: 100%;
+                display: block;
+            }
+            
+            article p {
+                margin: 5px 0;
+                color: #fff;
+                display: flex;
+                flex-flow: row no-wrap;
+                font-size: 18px;
+                
+            }
+            
+            article span {
+                font-size: 32px;
+                padding-right: 40px;
+            }
+            
+            article b {
+                display: block;
+                font-size: 15px;
+            }
+            
+            article a {
+                border-radius: 50%;
+                border: 2px #fff solid;
+                width: 43%;
+                font-weight: bold;
+                
+            }
+        </style>
+        
+        <header>
+            <img src="./logo-mario-toolbar.png">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Characters</li>
+                <li>History</li>
+            </ul>
+        </header>
+    
+        <main>
+            
+            
+            
+            <section>
+                
+                <article>
+                    <img src="./super-mario-bros.png">
+                    <div>
+                        <span>1985</span>
+                        <p>
+                            <b>Super Mario Bros.</b>
+                            Released: Oct 18, 1985
+                        </p>
+                        
+                        <a href="#">Learn More</a>
+                    </div>
+                </article>
+                
+                <article>
+                    <img src="./super-mario-bros-2.png">
+                    <div>
+                        <span>1985</span>
+                        <p>
+                            <b>Super Mario Bros.</b>
+                            Released: Oct 18, 1985
+                        </p>
+                        
+                        <a href="#">Learn More</a>
+                    </div>
+                </article>
+                
+                <article>
+                    <img src="./super-mario-land.png">
+                    <div>
+                        <span>1985</span>
+                        <p>
+                            <b>Super Mario Bros.</b>
+                            Released: Oct 18, 1985
+                        </p>
+                        
+                        <a href="#">Learn More</a>
+                    </div>
+                </article>
+                
+                <article>
+                    <img src="./super-mario-bros-3.png">
+                    <div>
+                        <span>1985</span>
+                        <p>
+                            <b>Super Mario Bros.</b>
+                            Released: Oct 18, 1985
+                        </p>
+                        
+                        <a href="#">Learn More</a>
+                    </div>
+                </article>
+                
+                <article>
+                    <img src="./super-mario-land-2.png">
+                    <div>
+                        <span>1985</span>
+                        <p>
+                            <b>Super Mario Bros.</b>
+                            Released: Oct 18, 1985
+                        </p>
+                        
+                        <a href="#">Learn More</a>
+                    </div>
+                </article>
+                
+                <article>
+                    <img src="./super-mario-world.png">
+                    <div>
+                        <span>1985</span>
+                        <p>
+                            <b>Super Mario Bros.</b>
+                            Released: Oct 18, 1985
+                        </p>
+                        
+                        <a href="#">Learn More</a>
+                    </div>
+                </article>
+            </section>
+            
+            
+        </main>
+    
+</body></html>
